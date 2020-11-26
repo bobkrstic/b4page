@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<style type="text/css">
+    body {
+        /* background: url(laptop_bg.jpg) no-repeat; */
+        background-size: cover;
+        background-position: bottom;
+        /* height: 100vh; */
+    }
+
+    .tab-content,
+    .tab-pane {
+        height: 700px;
+    }
+</style>
+
+<body>
+    <div class="container p-5">
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item mr-1 active">
+                <a href="#section-one" class="nav-link text-dark" data-toggle="tab">Section One</a>
+            </li>
+            <li class="nav-item ml-1">
+                <a href="#section-two" class="nav-link text-dark" data-toggle="tab">Section Two</a>
+            </li>
+        </ul>
+        <div class="tab-content shadow-lg">
+            <div class=" tab-pane fade show bg-white text-dark active" id="section-one">
+                <div class="row">
+                    <div class="col-md-3 w-50">
+                        <ul class="nav nav-tabs flex-column">
+                            <li><a href="#heading-one" class="nav-link text-dark active" data-toggle="tab">Heading
+                                    One</a></li>
+                            <li><a href="#heading-two" class="nav-link text-dark my-1" data-toggle="tab">Heading
+                                    Two</a></li>
+                            <li><a href="#heading-three" class="nav-link text-dark" data-toggle="tab">Heading
+                                    Three</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9 w-50">
+                        <div class=" tab-content flex-center">
+                            <div class="tab-pane fade show active" id="heading-one">
+                                <p class="m-5">Content One</p>
+                            </div>
+                            <div class="tab-pane fade show" id="heading-two">
+                                <p class="m-5">Content Two</p>
+                            </div>
+                            <div class="tab-pane fade show" id="heading-three">
+                                <p class="m-5">Content Three</p>
+                                <div class="card" style="width:400px">
+                                    <img class="card-img-top" src="laptop_bg.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text some example text. John Doe is an
+                                            architect and engineer</p>
+                                        <a href="#" class="btn btn-primary">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade bg-white text-dark" id="section-two">
+                <p class="p4" id="textID">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has
+                    been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
