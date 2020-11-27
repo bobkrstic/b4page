@@ -19,17 +19,54 @@
 </head>
 
 <style type="text/css">
+    html,
     body {
-        /* background: url(laptop_bg.jpg) no-repeat; */
-        background-size: cover;
-        background-position: bottom;
-        /* height: 100vh; */
+        height: 100%;
+    }
+
+    .container {
+        height: 100%;
     }
 
     .tab-content,
     .tab-pane {
-        height: 700px;
+        /* height: 700px; */
+        margin: auto;
+        height: 80%;
     }
+
+    .tab-pane {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    .card {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 70%;
+        border-radius: 5px;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    /* .container {
+        padding: 2px 16px;
+    } */
+
+    /* a:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    } */
 </style>
 
 <body>
@@ -43,11 +80,11 @@
             </li>
         </ul>
         <div class="tab-content shadow-lg">
-            <div class=" tab-pane fade show bg-white text-dark active" id="section-one">
+            <div class="tab-pane fade show bg-white text-dark active" id="section-one">
                 <div class="row">
                     <div class="col-md-3 w-50">
                         <ul class="nav nav-tabs flex-column">
-                            <li><a href="#heading-one" class="nav-link text-dark active" data-toggle="tab">Heading
+                            <li><a href="#heading-one" class="nav-link text-dark" data-toggle="tab">Heading
                                     One</a></li>
                             <li><a href="#heading-two" class="nav-link text-dark my-1" data-toggle="tab">Heading
                                     Two</a></li>
@@ -59,20 +96,38 @@
                     <div class="col-md-9 w-50">
                         <div class=" tab-content flex-center">
                             <div class="tab-pane fade show active" id="heading-one">
-                                <p class="m-5">Content One</p>
-                            </div>
-                            <div class="tab-pane fade show" id="heading-two">
-                                <p class="m-5">Content Two</p>
-                            </div>
-                            <div class="tab-pane fade show" id="heading-three">
-                                <p class="m-5">Content Three</p>
-                                <div class="card" style="width:400px">
+                                <!-- <p class="m-5">Content One</p> -->
+                                <div class="card">
                                     <img class="card-img-top" src="laptop_bg.jpg" alt="Card image" style="width:100%">
                                     <div class="card-body">
                                         <h4 class="card-title">John Doe</h4>
                                         <p class="card-text">Some example text some example text. John Doe is an
                                             architect and engineer</p>
-                                        <a href="#" class="btn btn-primary">See Profile</a>
+                                        <a href="#" class="btn btn-light">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="heading-two">
+                                <!-- <p class="m-5">Content Two</p> -->
+                                <div class="card">
+                                    <img class="card-img-top" src="laptop_bg.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text some example text. John Doe is an
+                                            architect and engineer</p>
+                                        <a href="#" class="btn btn-light">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="heading-three">
+                                <!-- <p class="m-5">Content Three</p> -->
+                                <div class="card">
+                                    <img class="card-img-top" src="laptop_bg.jpg" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text some example text. John Doe is an
+                                            architect and engineer</p>
+                                        <a href="#" class="btn btn-light">See Profile</a>
                                     </div>
                                 </div>
                             </div>
