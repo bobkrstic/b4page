@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+.container.p-5 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  margin-right: auto;
+  height: 100%;
+}
+
+.tab-content,
+.tab-pane {
+  height: 90%;
+}
+
+.row {
+  height: 100%;
+}
+
+.tab-pane {
+  padding: 20px;
+}
+
+.card {
+  margin-top: 70px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fa_icons {
+  text-align: center;
+}
+
+.fab {
+  /* color: rgb(250, 71, 31); */
+  color: white;
+  text-shadow: 2px 2px 4px rgb(250, 71, 31);
+  padding: 20px;
+}
+
+.fab:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#linkedin_icon:active,
+#github_icon:active {
+  transform: translateY(4px);
+}
