@@ -40,8 +40,7 @@ body {
   text-align: center;
 }
 
-.fab {
-  /* color: rgb(250, 71, 31); */
+/* .fab {
   color: white;
   text-shadow: 2px 2px 4px rgb(250, 71, 31);
   padding: 20px;
@@ -50,6 +49,12 @@ body {
 .fab:hover {
   color: white;
   text-shadow: 2px 2px 4px #000000;
+} */
+
+.bi {
+  /* color: white; */
+  text-shadow: 2px 2px 4px rgb(250, 71, 31);
+  /* padding: 20px; */
 }
 
 #linkedin_icon:active,
