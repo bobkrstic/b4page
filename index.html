@@ -28,19 +28,35 @@
         height: 100%;
     }
 
+    .container.p-5 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+        margin-right: auto;
+        /* margin: auto; */
+        height: 100%;
+    }
+
     .tab-content,
     .tab-pane {
         /* height: 700px; */
-        margin: auto;
-        height: 80%;
+        /* margin: auto; */
+        height: 90%;
+        /* height: auto; */
     }
+
+    .row {
+        height: 100%;
+    }
+
+
 
     .tab-pane {
         padding: 20px;
-        margin: 10px auto;
+        /* margin: 10px auto; */
     }
 
-    .card {
+    /* .card {
         margin: 10px auto;
         padding: 10px;
     }
@@ -49,16 +65,26 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 70%;
+        height: 90%;
         border-radius: 5px;
+    }*/
+
+    /* .card {
+        width: 70%;
+        height: 90;
+    } */
+
+    .card {
+        margin-top: 70px;
     }
 
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
-    img {
+    /* img {
         border-radius: 5px 5px 0 0;
-    }
+    } */
 
     /* .container {
         padding: 2px 16px;
@@ -72,11 +98,14 @@
 <body>
     <div class="container p-5">
         <ul class="nav nav-tabs nav-justified">
-            <li class="nav-item mr-1 active">
-                <a href="#section-one" class="nav-link text-dark" data-toggle="tab">Section One</a>
+            <li class="nav-item mr-1">
+                <a href="#section-one" class="nav-link text-dark active" data-toggle="tab">Projects</a>
+            </li>
+            <li class="nav-item lr-1">
+                <a href="#section-two" class="nav-link text-dark" data-toggle="tab">Bio</a>
             </li>
             <li class="nav-item ml-1">
-                <a href="#section-two" class="nav-link text-dark" data-toggle="tab">Section Two</a>
+                <a href="#section-three" class="nav-link text-dark" data-toggle="tab">Resume</a>
             </li>
         </ul>
         <div class="tab-content shadow-lg">
@@ -84,25 +113,32 @@
                 <div class="row">
                     <div class="col-md-3 w-50">
                         <ul class="nav nav-tabs flex-column">
-                            <li><a href="#heading-one" class="nav-link text-dark" data-toggle="tab">Heading
-                                    One</a></li>
-                            <li><a href="#heading-two" class="nav-link text-dark my-1" data-toggle="tab">Heading
-                                    Two</a></li>
-                            <li><a href="#heading-three" class="nav-link text-dark" data-toggle="tab">Heading
-                                    Three</a></li>
+                            <li><a href="#heading-one" class="nav-link text-dark" data-toggle="tab">Vibely</a></li>
+                            <li><a href="#heading-two" class="nav-link text-dark my-1" data-toggle="tab">Rituals &
+                                    Alchemy</a></li>
+                            <li><a href="#heading-three" class="nav-link text-dark" data-toggle="tab">React
+                                    Portfolio</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-9 w-50">
-                        <div class=" tab-content flex-center">
+                        <div class="tab-content flex-center">
                             <div class="tab-pane fade show active" id="heading-one">
                                 <!-- <p class="m-5">Content One</p> -->
-                                <div class="card">
+                                <!-- <div class="card">
                                     <img class="card-img-top" src="laptop_bg.jpg" alt="Card image" style="width:100%">
                                     <div class="card-body">
                                         <h4 class="card-title">John Doe</h4>
                                         <p class="card-text">Some example text some example text. John Doe is an
                                             architect and engineer</p>
+                                        <a href="#" class="btn btn-light">See Profile</a>
+                                    </div>
+                                </div> -->
+                                <div class="card" style="width:100%">
+                                    <img class="card-img-top" src="laptop_bg.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text.</p>
                                         <a href="#" class="btn btn-light">See Profile</a>
                                     </div>
                                 </div>
@@ -146,6 +182,18 @@
                     with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
                     publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
+
+            <div class="tab-pane fade bg-white text-dark" id="section-three">
+                <p class="p4" id="textIDt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has
+                    been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+
 
         </div>
     </div>
