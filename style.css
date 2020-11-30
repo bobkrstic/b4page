@@ -30,6 +30,7 @@ body {
 
 .card {
   margin-top: 30px;
+  /* height: 70%; */
 }
 
 .card:hover {
