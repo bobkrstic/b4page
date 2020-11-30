@@ -47,6 +47,8 @@ body {
   padding: 20px;
 }
 
+
+
 .fab:hover {
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -70,4 +72,28 @@ body {
 #linkedin_icon:active,
 #github_icon:active {
   transform: translateY(4px);
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#carouselExampleControls {
+  background-color: #f4f4f4f4;
+}
+
+.resume:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#resume_link {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
 }
