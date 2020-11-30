@@ -29,11 +29,11 @@ body {
 }
 
 .card {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(83, 55, 48, 0.7);
 }
 
 .fa_icons {
@@ -52,9 +52,18 @@ body {
 } */
 
 .bi {
-  /* color: white; */
-  text-shadow: 2px 2px 4px rgb(250, 71, 31);
+  color: rgb(218, 50, 28);
+  /* text-shadow: 2px 2px 4px rgb(250, 71, 31); */
   /* padding: 20px; */
+}
+
+.bi:hover {
+  color: rgb(83, 55, 48);
+}
+
+#github_icon,
+#linkedin_icon {
+  margin: 20px;
 }
 
 #linkedin_icon:active,
