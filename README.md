@@ -2,7 +2,6 @@
 
 Bootstrap project - simplicity works
 
-Creating a simple and elegant project.
-It doesn't mean simple to create.
+Creating a simple and elegant project. Simple easy to navigate through.
 
-Test push.
+Portfolio page/resume.
