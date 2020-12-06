@@ -110,6 +110,8 @@ body {
 #my_image {
   height: 100%;
   width: 80%;
+  border-radius: 5%;
+  box-shadow: 0 8px 16px 0 rgba(83, 55, 48, 0.7);
 }
 
 .favorite_quote {
@@ -117,6 +119,7 @@ body {
   border: 1px solid rgb(218, 50, 28);
   padding: 20px;
   color: whitesmoke;
+  box-shadow: 0 8px 16px 0 rgba(83, 55, 48, 0.7);
 }
 
 p#quote_line_one,
