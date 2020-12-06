@@ -100,3 +100,26 @@ body {
   text-align: center;
   padding: 5px;
 }
+
+/* Section 3 */
+
+#section-three p {
+  text-align: justify;
+}
+
+#my_image {
+  height: 100%;
+  width: 80%;
+}
+
+.favorite_quote {
+  border-radius: 5px;
+  border: 1px solid rgb(218, 50, 28);
+  padding: 20px;
+  color: whitesmoke;
+}
+
+p#quote_line_one,
+p#quote_line_two {
+  text-align: center;
+}
