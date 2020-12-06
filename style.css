@@ -33,6 +33,10 @@ body {
   /* height: 70%; */
 }
 
+.card-body p {
+  text-align: justify;
+}
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(83, 55, 48, 0.7);
 }
@@ -86,9 +90,8 @@ body {
 }
 
 .resume:hover {
-  transform: scale(
-    1.5
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5);
 }
 
 #resume_link {
